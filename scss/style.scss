@@ -396,3 +396,179 @@ body {
         }
     }
 }
+
+
+.partners {
+    width: 100%;
+    height: 1000px;
+    background: #000000;
+    .container {
+        padding-top: 250px;
+        .partners__inner {
+            width: 100%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            .partners_header {
+                display: flex;
+                align-items: center;
+                .partners__title {
+                    font-size: 46px;
+                    font-weight: 700;
+                }
+            }
+
+            .partners__social {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 40px;
+                .partner__item {
+                    width: 25%;
+                    position: relative;
+                    height: 120px;
+                    border-right: 1px solid grey;
+                    border-bottom: 1px solid grey;
+                    img {
+                        position: absolute;
+                        left: 60px;
+                        top: 10px;
+                    }
+                }
+
+                .partner__item:nth-child(4) {
+                    border-right: 0;
+                }
+                .partner__item:nth-child(8) {
+                    border: 0;
+                }
+                .partner__item:nth-child(5) {
+                    border-bottom: 0;
+                }
+                .partner__item:nth-child(6) {
+                    border-bottom: 0;
+                }
+                .partner__item:nth-child(7) {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+
+.raspisanie {
+    width: 100%;
+    height: 1600px;
+    background: #000000;
+    .raspisanie__container {
+        width: 750px;
+        height: 1323px;
+        margin: 0 auto;
+        padding-top: 200px;
+        .raspisanie__inner {
+            color: white;
+            .raspisanie__header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    width: 127px;
+                }
+
+                .raspisanie__title {
+                    font-size: 44px;
+                    font-weight: 700;
+                }
+
+                .raspisanie__subtitle {
+                    font-size: 16px;
+                    color: grey;
+                    text-align: center;
+                }
+            }
+            .raspisanie__tree {
+                width: 100%;
+                height: 900px;
+                color: white;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 60px;
+                .first__4__weeks {
+                    padding-right: 120px;
+                    border-right: 6px solid #C89AFC;
+                    .week__item {
+                        text-align: right;
+                        margin: 100px 0;
+                        .week__subtitle {
+                            color: grey;
+                            font-size: 16px;
+                        }
+
+                        .week__border {
+                            display: flex;
+                            justify-content: space-between;
+
+                            .border__right {
+                                border-right: 1px solid grey;
+                                transform-origin: 100% 0;
+                                transform: rotate(270deg);
+                                position: relative;
+                                left: 40px;
+                                top: 25px;
+                                
+                                
+                            }
+                        }
+
+                        .week__text {
+                            font-weight: 400;
+                            font-size: 20px;
+                            margin: 15px 0;
+                            
+                        }
+
+                        
+                    }
+                }
+
+                .second_3_weeks {
+                    padding-left: 115px;
+                     margin-top: 105px;
+                    .week__item2 {
+                        margin: 100px 0;
+                        .week__subtitle2 {
+                            color: grey;
+                            font-size: 16px;
+                        }
+
+                        .week__border2 {
+                            display: flex;
+                            justify-content: space-between;
+
+                            .border__left2 {
+                                border-left: 1px solid grey;
+                                transform-origin: 100% 0;
+                                transform: rotate(270deg);
+                                position: relative;
+                                right: 115px;
+                                top: 25px;
+                                
+                                
+                            }
+                        }
+
+                        .week__text2 {
+                            font-weight: 400;
+                            font-size: 20px;
+                            margin: 15px 0;
+                            
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+    }
+}

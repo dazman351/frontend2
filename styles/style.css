@@ -459,3 +459,222 @@ body {
   width: 360px;
   text-align: center;
 }
+
+.partners {
+  width: 100%;
+  height: 1000px;
+  background: #000000;
+}
+
+.partners .container {
+  padding-top: 250px;
+}
+
+.partners .container .partners__inner {
+  width: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.partners .container .partners__inner .partners_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partners .container .partners__inner .partners_header .partners__title {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.partners .container .partners__inner .partners__social {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.partners .container .partners__inner .partners__social .partner__item {
+  width: 25%;
+  position: relative;
+  height: 120px;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.partners .container .partners__inner .partners__social .partner__item img {
+  position: absolute;
+  left: 60px;
+  top: 10px;
+}
+
+.partners .container .partners__inner .partners__social .partner__item:nth-child(4) {
+  border-right: 0;
+}
+
+.partners .container .partners__inner .partners__social .partner__item:nth-child(8) {
+  border: 0;
+}
+
+.partners .container .partners__inner .partners__social .partner__item:nth-child(5) {
+  border-bottom: 0;
+}
+
+.partners .container .partners__inner .partners__social .partner__item:nth-child(6) {
+  border-bottom: 0;
+}
+
+.partners .container .partners__inner .partners__social .partner__item:nth-child(7) {
+  border-bottom: 0;
+}
+
+.raspisanie {
+  width: 100%;
+  height: 1600px;
+  background: #000000;
+}
+
+.raspisanie .raspisanie__container {
+  width: 750px;
+  height: 1323px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner {
+  color: white;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__header img {
+  width: 127px;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__header .raspisanie__title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__header .raspisanie__subtitle {
+  font-size: 16px;
+  color: grey;
+  text-align: center;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree {
+  width: 100%;
+  height: 900px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .first__4__weeks {
+  padding-right: 120px;
+  border-right: 6px solid #C89AFC;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .first__4__weeks .week__item {
+  text-align: right;
+  margin: 100px 0;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .first__4__weeks .week__item .week__subtitle {
+  color: grey;
+  font-size: 16px;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .first__4__weeks .week__item .week__border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .first__4__weeks .week__item .week__border .border__right {
+  border-right: 1px solid grey;
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  position: relative;
+  left: 40px;
+  top: 25px;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .first__4__weeks .week__item .week__text {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .second_3_weeks {
+  padding-left: 115px;
+  margin-top: 105px;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .second_3_weeks .week__item2 {
+  margin: 100px 0;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .second_3_weeks .week__item2 .week__subtitle2 {
+  color: grey;
+  font-size: 16px;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .second_3_weeks .week__item2 .week__border2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .second_3_weeks .week__item2 .week__border2 .border__left2 {
+  border-left: 1px solid grey;
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  position: relative;
+  right: 115px;
+  top: 25px;
+}
+
+.raspisanie .raspisanie__container .raspisanie__inner .raspisanie__tree .second_3_weeks .week__item2 .week__text2 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 15px 0;
+}
