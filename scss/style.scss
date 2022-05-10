@@ -200,7 +200,7 @@ body {
     background: #000000;
     height: 1000px;
     .container {
-        padding-top: 300px;
+        padding-top: 250px;
         .about__inner {
             display: flex;
             justify-content: space-between;
@@ -244,6 +244,155 @@ body {
             }
             
             
+        }
+    }
+}
+
+
+.quick__start {
+    width: 100%;
+    height: 1000px;
+    background: #000000;
+    .container {  
+        padding-top: 250px;
+        .quick__start__inner {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            .quick {
+                display: flex;
+                align-items: center;
+
+                span {
+                    margin-left: 20px;
+                    font-size: 48px;
+                    font-weight: 700;
+                }
+            }
+            .quick__text {
+                color: grey;
+                font-size: 16px;
+                width: 450px;
+                margin-top: 30px;
+            }
+
+            .quick__info {
+                width: 100%;
+                height: 100%;
+                margin-top: 50px;
+                display: flex;
+                
+                
+               
+                .quick__item {
+                    width: 25%; 
+                    height: 263px;
+                    position: relative;
+                    
+                    
+                                 
+                    .quick__percent {
+                        
+                        font-weight: 700;
+                        font-size: 46px;
+                        margin-bottom: 20px;
+                    }
+
+                    .quick__bg1 {
+                        
+                        margin-bottom: 20px;
+                        height: 80px;
+                        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+                    }
+
+                    .quick__bg2 {
+                        position: relative;
+                        top: 10px;
+                        height: 60px;
+                        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+                    }
+
+                    .quick__bg3 {
+                        position: relative;
+                        top: 25px;
+                        height: 30px;
+                        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+                    }
+
+                    .quick__bg4 {
+                        position: relative;
+                        top: 35px;
+                        height: 10px;
+                        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+                    }
+
+                    .quick__text2 {
+                        font-size: 14px;
+                        margin-bottom: 20px;
+                        line-height: 1.2;
+                        width: 90%;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        color: grey;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+.features {
+    width: 100%;
+    height: 1000px;
+    background: #000000;
+    .container {
+        color: white;
+        padding-top: 250px;
+        .features__title {
+            font-size: 44px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        .features__inner {
+            width: 100%;
+            color: white;
+            display: flex;
+            .features__item {
+                width: 33%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 30px;
+                height: 346px;
+
+                .features__icon {
+                    margin-bottom: 20px;
+
+                }
+
+                .features__subtitle {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    
+                    
+                }
+
+                .features__text {
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    color: grey;
+                    width: 360px;
+                    text-align: center;
+                }
+                
+
+            }
         }
     }
 }
