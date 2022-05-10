@@ -12,6 +12,10 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    margin: 0 300px;
+}
+
 // Скрываем пока что бургер меню
 .burger {
     display: none;
@@ -122,8 +126,124 @@ body {
 
 
 .intro__footer {
+    background: #121212;
     width: 100%;
-    .intro__footer__inner {
+    .container {
         margin: 0 300px;
+        .intro__footer__inner {
+            color: white;
+            width: 100%;
+            height: 180px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .order {
+                color: white;
+                width: 169px;
+                height: 44px;
+                border:  none;
+                border-radius: 50px;
+                background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+            }
+            .students {
+                width: 251px;
+                height: 58px;
+                .statistics {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 0;
+                    color: grey;
+                    .number {
+                        color: white;
+                    }
+                    .number2 {
+                        color: white;
+                    }
+                }
+            }
+            .results {
+                width: 714px;
+                height: 67px;
+                color: grey;
+                .results__count {
+                    color: white;
+                    padding-left: 30px;
+                }
+                p {
+                    margin-top: 0;
+                }
+
+                .count {
+                    display: flex;
+                    justify-content: space-between;
+                    border-top: 6px solid white;
+                    padding-top: 10px;
+                    position: relative;
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        width: 440px;
+                        height: 6px;
+                        background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+                        left: 0;
+                        top: -6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.about {
+    width: 100%;
+    background: #000000;
+    height: 1000px;
+    .container {
+        padding-top: 300px;
+        .about__inner {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            width: 100%;
+            max-width: 1320px;
+            height: 580px;
+            .square {
+                position: relative;
+                width: 500px;
+                height: 520px;
+                border: 30px solid #C89AFC;
+                img {
+                    width: 426px;
+                    height: auto;
+                    position: absolute;
+                    top: 25%;
+                    left: 10px;
+                    z-index: 2;
+
+                }
+                
+            }
+
+            .about__info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 630px;
+                height: 340px;
+                h2 {
+                    font-size: 48px;
+                    font-weight: 700;
+                    margin-bottom: 70px;
+                }
+                .about__text {
+                    line-height: 1.4;
+                    font-size: 16px;
+                }
+                
+            }
+            
+            
+        }
     }
 }
