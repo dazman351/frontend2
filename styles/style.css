@@ -111,7 +111,7 @@ body {
 }
 
 .intro .intro__inner .intro__box .box__second {
-  padding: 25px 40px 15px 40px;
+  padding: 25px 35px 15px 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,6 +169,8 @@ body {
   height: 44px;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
+  outline: none;
   background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
 
@@ -300,12 +302,12 @@ body {
 
 .quick__start {
   width: 100%;
-  height: 1000px;
+  height: 850px;
   background: #000000;
 }
 
 .quick__start .container {
-  padding-top: 250px;
+  padding-top: 150px;
 }
 
 .quick__start .container .quick__start__inner {
@@ -352,7 +354,7 @@ body {
 
 .quick__start .container .quick__start__inner .quick__info .quick__item {
   width: 25%;
-  height: 263px;
+  height: 280px;
   position: relative;
 }
 
@@ -402,13 +404,13 @@ body {
 
 .features {
   width: 100%;
-  height: 1000px;
+  height: 880px;
   background: #000000;
 }
 
 .features .container {
   color: white;
-  padding-top: 250px;
+  padding-top: 150px;
 }
 
 .features .container .features__title {
@@ -462,12 +464,12 @@ body {
 
 .partners {
   width: 100%;
-  height: 1000px;
+  height: 800px;
   background: #000000;
 }
 
 .partners .container {
-  padding-top: 250px;
+  padding-top: 150px;
 }
 
 .partners .container .partners__inner {
@@ -503,7 +505,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .partners .container .partners__inner .partners__social .partner__item {
@@ -518,6 +520,9 @@ body {
   position: absolute;
   left: 60px;
   top: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
 }
 
 .partners .container .partners__inner .partners__social .partner__item:nth-child(4) {
@@ -550,7 +555,7 @@ body {
   width: 750px;
   height: 1323px;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .raspisanie .raspisanie__container .raspisanie__inner {
@@ -677,4 +682,186 @@ body {
   font-weight: 400;
   font-size: 20px;
   margin: 15px 0;
+}
+
+.teachers {
+  width: 100%;
+  height: 1000px;
+  background: #000000;
+}
+
+.teachers .container {
+  padding-top: 180px;
+}
+
+.teachers .container .teachers__inner {
+  color: white;
+}
+
+.teachers .container .teachers__inner .teachers__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.teachers .container .teachers__inner .teachers__header .teachers__title {
+  font-size: 46px;
+  font-weight: 700;
+  margin-left: 20px;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.teachers .container .teachers__inner .teachers__info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 90px;
+}
+
+.teachers .container .teachers__inner .teachers__info .teacher__item {
+  width: 33.33333%;
+  margin: 15px 30px;
+  text-align: center;
+}
+
+.teachers .container .teachers__inner .teachers__info .teacher__item .teacher__photo {
+  margin-bottom: 35px;
+}
+
+.teachers .container .teachers__inner .teachers__info .teacher__item .teacher__name {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.teachers .container .teachers__inner .teachers__info .teacher__item .teacher__special {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.teachers .container .teachers__inner .teachers__info .teacher__item .biography {
+  background: #000000;
+  color: white;
+  padding: 15px 40px;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #000000;
+  width: 100%;
+  height: 520px;
+}
+
+.footer .footer__container {
+  width: 547px;
+  height: 419px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.footer .footer__container .footer__inner {
+  color: white;
+  text-align: center;
+}
+
+.footer .footer__container .footer__inner .footer__header {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.footer .footer__container .footer__inner .footer__text {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 50px;
+}
+
+.footer .footer__container .footer__inner .footer__form {
+  position: relative;
+}
+
+.footer .footer__container .footer__inner .footer__form .footer__email {
+  background: #6d6b6b;
+  color: black;
+  opacity: .6;
+  padding: 15px 30px;
+  border-radius: 50px;
+  width: 453px;
+  height: 44px;
+  border: 0;
+}
+
+.footer .footer__container .footer__inner .footer__form .footer__email::-webkit-input-placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+.footer .footer__container .footer__inner .footer__form .footer__email:-ms-input-placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+.footer .footer__container .footer__inner .footer__form .footer__email::-ms-input-placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+.footer .footer__container .footer__inner .footer__form .footer__email::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+.footer .footer__container .footer__inner .footer__form .footer__button {
+  position: absolute;
+  right: 45px;
+  top: 1px;
+  cursor: pointer;
+  outline: none;
+  padding: 14px 30px;
+  border-radius: 50px;
+  height: 43px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.footer .footer__container .footer__inner .footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0;
+}
+
+.footer .footer__container .footer__inner .footer__social .circle {
+  width: 50px;
+  margin-right: 20px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.footer .footer__container .footer__inner .footer__social .circle .social__icon {
+  position: relative;
+  top: 13px;
+}
+
+.footer .footer__container .footer__inner .footer__social .circle:last-child {
+  margin: 0;
+}
+
+.footer .footer__container .footer__inner .footer__author {
+  font-size: 16px;
+  color: grey;
 }
